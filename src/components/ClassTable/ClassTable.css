@@ -1,0 +1,72 @@
+.th-secondary {
+  font-size: 12px;
+  line-height: 12px;
+  color: #999;
+}
+
+.th-secondary span {
+  cursor: pointer;
+}
+
+.th-secondary span:hover,
+.th-secondary span.selected:hover {
+  color: rgb(52, 52, 199);
+  font-size: 13px;
+}
+
+.th-secondary span.selected {
+  color: rgb(16, 16, 102);
+  font-weight: bold;
+}
+
+.badge {
+  display: inline-flex;
+  background-color: blue;
+  color: white;
+  border: 2px solid blue;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  vertical-align: cetner;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.badge.a {
+  color: hsl(120, 48%, 16%);
+  background-color: hsl(120, 48%, 66%);
+  border-color: hsl(120, 48%, 36%);
+}
+
+.badge.b {
+  color: hsl(90, 48%, 16%);
+  background-color: hsl(90, 48%, 66%);
+  border-color: hsl(90, 48%, 36%);
+}
+
+.badge.c {
+  color: hsl(70, 48%, 16%);
+  background-color: hsl(70, 48%, 66%);
+  border-color: hsl(70, 48%, 36%);
+}
+
+.badge.d {
+  color: hsl(40, 48%, 16%);
+  background-color: hsl(40, 48%, 66%);
+  border-color: hsl(40, 48%, 36%);
+}
+
+.badge.f {
+  color: hsl(0, 48%, 16%);
+  background-color: hsl(0, 48%, 66%);
+  border-color: hsl(0, 48%, 36%);
+}
+
+.badge.plus {
+  filter: brightness(95%);
+}
+.badge.minus {
+  filter: brightness(115%);
+}

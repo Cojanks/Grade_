@@ -1,0 +1,39 @@
+.section {
+  padding: 15px;
+  border-radius: 7px;
+  border: 1px solid #999;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.section.square {
+  border-radius: 0px;
+}
+
+.section.tight {
+  padding: 7px;
+}
+
+.section.padded {
+  padding: 20px;
+}
+
+.section.centered {
+  margin: 0px auto 5px;
+}
+
+.section.wide {
+  max-width: 1200px;
+}
+
+.section.normal {
+  max-width: 800px;
+}
+
+.section.small {
+  max-width: 600px;
+}
+
+.section.xs {
+  max-width: 500px;
+}
