@@ -70,3 +70,29 @@
 .badge.minus {
   filter: brightness(115%);
 }
+
+.name {
+  font-weight: bold;
+  font-size: 14px;
+}
+.real-name,
+.pronouns {
+  color: #666;
+  font-weight: normal;
+  font-size: 11px;
+}
+.pronouns {
+  margin-left: 6px;
+}
+
+.pronouns.they {
+  color: rgb(147, 43, 22);
+}
+
+.pronouns.her {
+  color: rgb(92, 23, 156);
+}
+
+.pronouns.him {
+  color: rgb(22, 111, 156);
+}

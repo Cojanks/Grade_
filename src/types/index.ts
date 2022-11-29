@@ -3,8 +3,14 @@ export type CompPropsWithChildren = {
 };
 
 export type StudentProps = {
-  id: number;
+  id: string;
   name: string;
   goesBy: string;
   currentGrade: number;
+  preferredPronouns: number;
+};
+
+export type DefaultRootStateProps = {
+  error: object | string | null;
+  students: StudentProps[];
 };

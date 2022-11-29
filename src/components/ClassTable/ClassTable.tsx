@@ -19,6 +19,14 @@ type GradeBadgeProps = {
   gradeTypeSelect: string;
 };
 
+type PronounSignifierProps = {
+  pronounCode: number;
+};
+
+type PronounKeyProps = {
+  [key: string]: string;
+};
+
 const GradeBadge: FC<GradeBadgeProps> = ({
   grade,
   gradeTypeSelect,
@@ -68,6 +76,24 @@ const GradeBadge: FC<GradeBadgeProps> = ({
       {gradeTypeSelect === 'number' ? grade : letters}
     </div>
   );
+};
+
+const PronounSignifier: FC<PronounSignifierProps> = ({ pronounCode }) => {
+  let classes = 'pronouns ';
+  let pronounKey: PronounKeyProps = {
+    1: 'He/Him',
+    2: 'She/Her',
+    3: 'They/Them',
+  };
+
+  if (pronounCode === 3) {
+    classes += 'they';
+  } else if (pronounCode === 2) {
+    classes += 'her';
+  } else {
+    classes += 'him';
+  }
+  return <span className={classes}>{pronounKey[pronounCode]}</span>;
 };
 
 const ClassTable: FC<ClassTableProps> = ({
@@ -128,7 +154,13 @@ const ClassTable: FC<ClassTableProps> = ({
                   {student.id}
                 </TableCell>
                 <TableCell component="th" scope="row">
-                  {student.name}
+                  <div className="name">{student.goesBy}</div>
+                  <div className="real-name">
+                    ({student.name})
+                    <PronounSignifier
+                      pronounCode={student.preferredPronouns}
+                    ></PronounSignifier>
+                  </div>
                 </TableCell>
                 <TableCell component="th" scope="row" align="right">
                   <GradeBadge
