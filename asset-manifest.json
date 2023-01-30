@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/grade/static/css/main.acfe0684.css",
-    "main.js": "/grade/static/js/main.bbb387f9.js",
-    "index.html": "/grade/index.html",
-    "main.acfe0684.css.map": "/grade/static/css/main.acfe0684.css.map",
-    "main.bbb387f9.js.map": "/grade/static/js/main.bbb387f9.js.map"
+    "main.css": "/Grade_/static/css/main.acfe0684.css",
+    "main.js": "/Grade_/static/js/main.2c98ca29.js",
+    "index.html": "/Grade_/index.html",
+    "main.acfe0684.css.map": "/Grade_/static/css/main.acfe0684.css.map",
+    "main.2c98ca29.js.map": "/Grade_/static/js/main.2c98ca29.js.map"
   },
   "entrypoints": [
     "static/css/main.acfe0684.css",
-    "static/js/main.bbb387f9.js"
+    "static/js/main.2c98ca29.js"
   ]
 }
