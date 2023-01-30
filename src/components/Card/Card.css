@@ -1,39 +1,41 @@
-.section {
+.card {
   padding: 15px;
   border-radius: 7px;
   border: 1px solid #999;
-  background-color: white;
-  margin-bottom: 5px;
+  background-color: rgb(243, 243, 243);
+  margin: 7px;
+  border-radius: 5px;
+  color: black;
 }
 
-.section.square {
+.card.square {
   border-radius: 0px;
 }
 
-.section.tight {
+.card.tight {
   padding: 7px;
 }
 
-.section.padded {
+.card.padded {
   padding: 20px;
 }
 
-.section.centered {
+.card.centered {
   margin: 0px auto 5px;
 }
 
-.section.wide {
+.card.wide {
   max-width: 1200px;
 }
 
-.section.normal {
+.card.normal {
   max-width: 800px;
 }
 
-.section.small {
+.card.small {
   max-width: 600px;
 }
 
-.section.xs {
+.card.xs {
   max-width: 500px;
 }

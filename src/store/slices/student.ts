@@ -32,16 +32,3 @@ const slice = createSlice({
 });
 
 export default slice.reducer;
-
-export function getStudents() {
-  return async (dispatch: Dispatch) => {
-    try {
-      const response = await fetch('http://localhost:3003');
-      dispatch(slice.actions.getStudentsSuccess(response.json()));
-      return response.json();
-    } catch (error) {
-      dispatch(slice.actions.hasError(error));
-      throw error;
-    }
-  };
-}

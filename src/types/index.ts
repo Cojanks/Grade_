@@ -14,3 +14,7 @@ export type DefaultRootStateProps = {
   error: object | string | null;
   students: StudentProps[];
 };
+
+export type CompPropsWithOnClick = {
+  onClick: (params?: any) => any;
+};

@@ -1,23 +1,23 @@
 import React, { FC } from 'react';
 import { CompPropsWithChildren } from 'types';
-import './Section.css';
+import './Card.css';
 
-type SectionProps = {
+type CardProps = {
   rounded?: boolean;
   padding?: 'tight' | 'padded';
   size?: 'wide' | 'normal' | 'small' | 'xs';
   centered?: boolean;
 } & CompPropsWithChildren;
 
-const Section: FC<SectionProps> = ({
+const Card: FC<CardProps> = ({
   children,
-  rounded,
+  rounded = true,
   padding,
   size,
   centered = false,
 }) => {
   const getClasses = () => {
-    let classes = 'section';
+    let classes = 'card';
     !rounded ? (classes += ' square') : (classes += '');
 
     if (padding === 'tight') {
@@ -39,4 +39,4 @@ const Section: FC<SectionProps> = ({
   return <div className={getClasses()}>{children}</div>;
 };
 
-export default Section;
+export default Card;

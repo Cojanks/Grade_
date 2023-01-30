@@ -113,8 +113,7 @@ const ClassTable: FC<ClassTableProps> = ({
     <>
       {/* TODO: get this from DB, make the class title dynamic */}
       <div className="table-actions">
-        <h3>1st Period Math</h3>
-        <ClassTableActions></ClassTableActions>
+        {/* <ClassTableActions></ClassTableActions> */}
       </div>
       <TableContainer>
         <Table aria-label="simple table">
