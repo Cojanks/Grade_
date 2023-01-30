@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/grade/static/css/main.acfe0684.css",
+    "main.js": "/grade/static/js/main.bbb387f9.js",
+    "index.html": "/grade/index.html",
+    "main.acfe0684.css.map": "/grade/static/css/main.acfe0684.css.map",
+    "main.bbb387f9.js.map": "/grade/static/js/main.bbb387f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acfe0684.css",
+    "static/js/main.bbb387f9.js"
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "000-000-001",
+    "name": "James Holden",
+    "goesBy": "James Holden",
+    "currentGrade": 91,
+    "preferredPronouns": 1
+  },
+  {
+    "id": "000-000-002",
+    "name": "Paul Atreidis",
+    "goesBy": "Paul Atreidis",
+    "currentGrade": 82,
+    "preferredPronouns": 1
+  },
+  {
+    "id": "000-000-003",
+    "name": "John Sheridan",
+    "goesBy": "John Sheridan",
+    "currentGrade": 85,
+    "preferredPronouns": 1
+  },
+  {
+    "id": "000-000-004",
+    "name": "Naomi Nagata",
+    "goesBy": "Naomi",
+    "currentGrade": 89,
+    "preferredPronouns": 2
+  },
+  {
+    "id": "000-000-005",
+    "name": "Beauregard Lionett",
+    "goesBy": "Beau",
+    "currentGrade": 67,
+    "preferredPronouns": 3
+  },
+  {
+    "id": "000-000-006",
+    "name": "Kara Thrace",
+    "goesBy": "Kara",
+    "currentGrade": 96,
+    "preferredPronouns": 3
+  },
+  {
+    "id": "000-000-007",
+    "name": "Mark Watney",
+    "goesBy": "Mark Watney",
+    "currentGrade": 89,
+    "preferredPronouns": 1
+  },
+  {
+    "id": "000-000-008",
+    "name": "Susan Ivanova",
+    "goesBy": "Susan Ivanova",
+    "currentGrade": 99,
+    "preferredPronouns": 2
+  },
+  {
+    "id": "000-000-009",
+    "name": "Phillip Coulson",
+    "goesBy": "Phil",
+    "currentGrade": 97,
+    "preferredPronouns": 1
+  },
+  {
+    "id": "000-000-010",
+    "name": "Teal'C",
+    "goesBy": "Teal'C",
+    "currentGrade": 90,
+    "preferredPronouns": 1
+  },
+  {
+    "id": "000-000-011",
+    "name": "Yasha Nydoorin",
+    "goesBy": "Yasha",
+    "currentGrade": 76,
+    "preferredPronouns": 3
+  },
+  {
+    "id": "000-000-012",
+    "name": "Matilda Bradbury",
+    "goesBy": "Laudna",
+    "currentGrade": 87,
+    "preferredPronouns": 2
+  },
+  {
+    "id": "000-000-013",
+    "name": "Skippy, The Magnificent",
+    "goesBy": "Skippy",
+    "currentGrade": 21,
+    "preferredPronouns": 3
+  }
+]
