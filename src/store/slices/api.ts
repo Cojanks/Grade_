@@ -8,7 +8,7 @@ export const apiSlice = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: API_URL }),
   endpoints: (builder) => ({
     getAllStudents: builder.query<StudentsResponse, void>({
-      query: () => '',
+      query: () => 'data/classData.json',
     }),
   }),
 });

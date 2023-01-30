@@ -2,7 +2,7 @@
   "name": "grade",
   "version": "0.1.0",
   "main": "src/index.tsx",
-  "homepage": "https://cojanks.github.io/grade",
+  "homepage": "https://cojanks.github.io/Grade_",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
