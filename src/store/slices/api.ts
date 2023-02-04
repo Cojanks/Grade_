@@ -10,7 +10,21 @@ export const apiSlice = createApi({
     getAllStudents: builder.query<StudentsResponse, void>({
       query: () => 'data/classData.json',
     }),
+    getTeacherData: builder.query({
+      query: (teacherId: string) => `data/${teacherId}.json`,
+    }),
+    getAllStudentsFromClassId: builder.query({
+      query: (classId: string) => `data/${classId}.json`,
+    }),
+    getStudentDetails: builder.query({
+      query: (studentId: string) => `data/${studentId}.json`,
+    }),
   }),
 });
 
-export const { useGetAllStudentsQuery } = apiSlice;
+export const {
+  useGetAllStudentsQuery,
+  useGetTeacherDataQuery,
+  useGetAllStudentsFromClassIdQuery,
+  useGetStudentDetailsQuery,
+} = apiSlice;
