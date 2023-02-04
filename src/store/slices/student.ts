@@ -1,8 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { v4 as uuidv4 } from 'uuid';
 import { DefaultRootStateProps } from 'types';
-import { Dispatch } from 'redux';
-import { resolveComponentProps } from '@mui/base';
 const initialState: DefaultRootStateProps = {
   students: [],
   error: null,
