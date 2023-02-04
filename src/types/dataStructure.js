@@ -195,3 +195,7 @@ API.getStudetDetails(01)
     notes: 'Great piece but did not include enough foreground elements to really see the 1 point perspective as per assignment'
     }, 
 ]
+
+
+// weighted scoring algorithm help: 
+//  https://sciencing.com/do-calculate-test-20-grade-6857645.html
