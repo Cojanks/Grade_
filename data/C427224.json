@@ -1,0 +1,62 @@
+{
+  "classId": "C427224",
+  "students": [
+    {
+      "id": 101,
+      "studentId": 10102,
+      "name": "James Holden",
+      "goesBy": "James",
+      "currentGrade": 75.9,
+      "preferredPronouns": 2
+    },
+    {
+      "id": 102,
+      "studentId": 10123,
+      "name": "Naomi Nagata",
+      "goesBy": "Naoimi",
+      "currentGrade": 95.9,
+      "preferredPronouns": 1
+    },
+    {
+      "id": 105,
+      "studentId": 10123,
+      "name": "Amos Burton",
+      "goesBy": "Amos",
+      "currentGrade": 65.5,
+      "preferredPronouns": 2
+    }
+  ],
+  "assignmentGroup": [
+    {
+      "id": "D23",
+      "title": "Still Life Homework",
+      "description": "Daily Still life assignments",
+      "weight": 30,
+      "individualAssignments": [2345, 2348]
+    },
+    {
+      "id": "D24",
+      "title": "Final Project",
+      "description": "Triptic of drawings of the students choosing",
+      "weight": 70,
+      "individualAssignments": [2366]
+    }
+  ],
+  "assignments": {
+    "2345": {
+      "name": "Still Life 1",
+      "description": "Still life focusing on shadows",
+      "defaultGrade": 80
+    },
+    "2348": {
+      "name": "Still Life 2",
+      "description": "Still life focusing on perspective",
+      "defaultGrade": 80
+    },
+    "2366": {
+      "name": "Final Project",
+      "description": "Triptic of a still scene",
+      "defaultGrade": 70
+    }
+  }
+}

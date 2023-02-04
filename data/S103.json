@@ -1,0 +1,20 @@
+{
+  "id": 103,
+  "assignmentDetails": [
+    {
+      "id": 2345,
+      "grade": 72,
+      "notes": "Half complete"
+    },
+    {
+      "id": 2348,
+      "grade": 0,
+      "notes": "Never turned in, past due so aassigning a 0"
+    },
+    {
+      "id": 2366,
+      "grade": 84,
+      "notes": "A great composition and work but I cant find where the 3rd point off canvas is for the 3-point persective section of the piece"
+    }
+  ]
+}
