@@ -1,0 +1,20 @@
+{
+  "id": 102,
+  "assignmentDetails": [
+    {
+      "id": 2345,
+      "grade": 95,
+      "notes": "Great work"
+    },
+    {
+      "id": 2348,
+      "grade": 93,
+      "notes": "Overcomplicated for the assignment, this is meant as practice"
+    },
+    {
+      "id": 2366,
+      "grade": 94,
+      "notes": "Would have loved to have some of the negative space taken up"
+    }
+  ]
+}

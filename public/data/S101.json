@@ -1,0 +1,20 @@
+{
+  "id": 101,
+  "assignmentDetails": [
+    {
+      "id": 2345,
+      "grade": 80,
+      "notes": "Blending needs work but overall composition is great"
+    },
+    {
+      "id": 2348,
+      "grade": 94,
+      "notes": "Excellent perspective, needs light practice with 3-point"
+    },
+    {
+      "id": 2366,
+      "grade": 91,
+      "notes": "Great piece but did not include enough foreground elements to really see the 1 point perspective as per assignment"
+    }
+  ]
+}

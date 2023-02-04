@@ -1,4 +1,6 @@
-App Begin:
+// ---------------------->
+// ----------------------> App Start
+// ---------------------->
 API.getTeacherData(teacherId) -> DB -> returns (teacherData)
 
 teacherData = {
@@ -12,12 +14,14 @@ classes = [{
         name: string
 }]
 
-// To Implement plater
+// To Implement later
 preferences = {
     startingClassId: number
 }
 
-// App then pulls classsData for first class or whatever the preferences.startingClassId says
+// ---------------------->
+// ----------------------> App then pulls classsData for first class or whatever the preferences.startingClassId says
+// ---------------------->
 API.getClass(classId) -> DB -> returns (classData, studentOverview, assignmentGroup, assignments)
 
 
@@ -123,7 +127,7 @@ studentOverview = [
         individualAssignments: [2366]
     }
 ]
-s
+
 assignments = {
     2345: {
         name: 'Still Life 1',
