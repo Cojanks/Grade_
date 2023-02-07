@@ -1,23 +1,22 @@
-{
-   "name": "Mr. Jenkins",
+[
+  {
+    "name": "Mr. Jenkins",
     "classes": [
-        {
-            "id": "C427033",
-            "name": "Drawing I (Tues-Thurs 8am)"
-
-        },
-        {
-            "id": "C427221",
-            "name": "Drawing II (Tues-Thurs 2pm)"
-
-        }
-        {
-            "id": "C427224",
-            "name": "Drawing I (Mon-Wed 11am)"
-
-        }
+      {
+        "id": "C427033",
+        "name": "Drawing I (Tues-Thurs 8am)"
+      },
+      {
+        "id": "C427221",
+        "name": "Drawing II (Tues-Thurs 2pm)"
+      },
+      {
+        "id": "C427224",
+        "name": "Drawing I (Mon-Wed 11am)"
+      }
     ],
     "preferences": {
-        "startingClassId": "C427224"
-    } 
-}
+      "startingClassId": "C427224"
+    }
+  }
+]
